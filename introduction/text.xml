@@ -1,0 +1,220 @@
+This XML file does not appear to have any style information associated with it. The document tree is shown below.
+
+
+<android.widget.FrameLayout
+	xmlns:android="http://schemas.android.com/apk/res/android" android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+	<android.widget.LinearLayout android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+		<android.widget.FrameLayout android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+			<android.widget.LinearLayout android:enabled="true" android:id="@com.tcl.tclhome:id/action_bar_root" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+				<android.widget.FrameLayout android:enabled="true" android:id="@android:id/content" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+					<android.widget.FrameLayout android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+						<android.widget.RelativeLayout android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+							<android.widget.FrameLayout android:enabled="true" android:id="@com.tcl.tclhome:id/main_fragment_host" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+								<android.widget.FrameLayout android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+									<android.widget.RelativeLayout android:enabled="true" android:layout_height="2400px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+										<com.tcl.bmmain.HomeViewPager android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/vp_home" android:layout_height="2184px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px" android:scrollable="true">
+											<android.widget.FrameLayout android:enabled="true" android:layout_height="2184px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+												<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/svHomeBg" android:layout_height="2184px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px">
+													<android.widget.LinearLayout android:enabled="true" android:id="@com.tcl.tclhome:id/title_bar" android:layout_height="167px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="108px">
+														<android.widget.LinearLayout android:enabled="true" android:layout_height="138px" android:layout_width="988px" android:layout_x="46px" android:layout_y="122px">
+															<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tvHomeUsername" android:layout_height="85px" android:layout_width="651px" android:layout_x="46px" android:layout_y="148px" android:text="Dimitar Georgiev 's home"/>
+															<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/rl_home_message" android:layout_height="81px" android:layout_width="81px" android:layout_x="711px" android:layout_y="150px">
+																<android.widget.ImageView android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/ibTHHomeMessage" android:layout_height="81px" android:layout_width="81px" android:layout_x="711px" android:layout_y="150px"/>
+															</android.widget.RelativeLayout>
+															<android.widget.ImageView android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/ibTHHomeNavScan" android:layout_height="81px" android:layout_width="81px" android:layout_x="832px" android:layout_y="150px"/>
+															<android.widget.ImageView android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/ibTHHomeNavAdd" android:layout_height="81px" android:layout_width="81px" android:layout_x="953px" android:layout_y="150px"/>
+														</android.widget.LinearLayout>
+													</android.widget.LinearLayout>
+													<android.view.ViewGroup android:enabled="true" android:id="@com.tcl.tclhome:id/refresh_layout" android:layout_height="1909px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="275px">
+														<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/refresh_layout" android:layout_height="0px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="275px">
+															<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/icon_lottie" android:layout_height="-46px" android:layout_width="81px" android:layout_x="499px" android:layout_y="275px"/>
+														</android.widget.RelativeLayout>
+														<android.widget.RelativeLayout android:enabled="true" android:layout_height="1909px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="275px">
+															<androidx.recyclerview.widget.RecyclerView android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/rv_list" android:layout_height="1909px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="275px">
+																<android.widget.LinearLayout android:enabled="true" android:layout_height="149px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="275px">
+																	<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_device_title" android:layout_height="62px" android:layout_width="159px" android:layout_x="46px" android:layout_y="333px" android:text="Devices"/>
+																</android.widget.LinearLayout>
+																<android.widget.LinearLayout android:enabled="true" android:layout_height="0px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="424px"/>
+																<android.widget.LinearLayout android:enabled="true" android:layout_height="126px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="424px">
+																	<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/ll_room" android:layout_height="103px" android:layout_width="1022px" android:layout_x="12px" android:layout_y="424px">
+																		<androidx.recyclerview.widget.RecyclerView android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/rv_room" android:layout_height="80px" android:layout_width="901px" android:layout_x="12px" android:layout_y="447px">
+																			<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/ll_device" android:layout_height="80px" android:layout_width="125px" android:layout_x="12px" android:layout_y="447px">
+																				<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_room_name" android:layout_height="62px" android:layout_width="55px" android:layout_x="47px" android:layout_y="447px" android:text="All"/>
+																				<android.view.View android:enabled="true" android:id="@com.tcl.tclhome:id/view_line" android:layout_height="9px" android:layout_width="35px" android:layout_x="57px" android:layout_y="518px"/>
+																			</android.widget.LinearLayout>
+																			<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/ll_device" android:layout_height="72px" android:layout_width="291px" android:layout_x="137px" android:layout_y="447px">
+																				<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_room_name" android:layout_height="54px" android:layout_width="221px" android:layout_x="172px" android:layout_y="447px" android:text="Living Room"/>
+																			</android.widget.LinearLayout>
+																		</androidx.recyclerview.widget.RecyclerView>
+																		<android.view.View android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/tv_more" android:layout_height="63px" android:layout_width="92px" android:layout_x="942px" android:layout_y="444px"/>
+																	</android.widget.RelativeLayout>
+																</android.widget.LinearLayout>
+																<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/rl_content" android:layout_height="328px" android:layout_width="477px" android:layout_x="46px" android:layout_y="550px">
+																	<android.widget.FrameLayout android:enabled="true" android:layout_height="317px" android:layout_width="466px" android:layout_x="46px" android:layout_y="550px">
+																		<android.view.ViewGroup android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/content_view" android:layout_height="317px" android:layout_width="466px" android:layout_x="46px" android:layout_y="550px">
+																			<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/img_air" android:layout_height="161px" android:layout_width="161px" android:layout_x="81px" android:layout_y="573px"/>
+																			<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/view_power" android:layout_height="81px" android:layout_width="81px" android:layout_x="402px" android:layout_y="579px">
+																				<android.widget.RelativeLayout android:enabled="true" android:layout_height="81px" android:layout_width="81px" android:layout_x="402px" android:layout_y="579px">
+																					<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_power" android:layout_height="81px" android:layout_width="81px" android:layout_x="402px" android:layout_y="579px"/>
+																				</android.widget.RelativeLayout>
+																			</android.widget.LinearLayout>
+																			<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_air_name" android:layout_height="47px" android:layout_width="431px" android:layout_x="81px" android:layout_y="752px" android:text="Split AC"/>
+																			<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_local" android:layout_height="39px" android:layout_width="431px" android:layout_x="81px" android:layout_y="805px" android:text="Living Room"/>
+																			<android.widget.LinearLayout android:enabled="true" android:id="@com.tcl.tclhome:id/ll_offline_error" android:layout_height="0px" android:layout_width="0px" android:layout_x="512px" android:layout_y="867px"/>
+																		</android.view.ViewGroup>
+																	</android.widget.FrameLayout>
+																</android.widget.RelativeLayout>
+																<android.widget.LinearLayout android:enabled="true" android:layout_height="363px" android:layout_width="540px" android:layout_x="540px" android:layout_y="550px">
+																	<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/ll_add_device" android:layout_height="328px" android:layout_width="488px" android:layout_x="557px" android:layout_y="550px">
+																		<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_add" android:layout_height="152px" android:layout_width="218px" android:layout_x="686px" android:layout_y="632px" android:text="Add devices"/>
+																	</android.widget.LinearLayout>
+																</android.widget.LinearLayout>
+															</androidx.recyclerview.widget.RecyclerView>
+														</android.widget.RelativeLayout>
+													</android.view.ViewGroup>
+												</android.widget.RelativeLayout>
+											</android.widget.FrameLayout>
+											<android.widget.FrameLayout android:enabled="true" android:layout_height="2184px" android:layout_width="0px" android:layout_x="1080px" android:layout_y="0px">
+												<android.widget.LinearLayout android:enabled="true" android:layout_height="2184px" android:layout_width="0px" android:layout_x="1080px" android:layout_y="0px">
+													<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/rl_profile_title" android:layout_height="138px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="108px">
+														<android.widget.TextView android:enabled="true" android:layout_height="85px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="134px" android:text="Profile"/>
+														<android.widget.ImageView android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/iv_top_scan" android:layout_height="81px" android:layout_width="-953px" android:layout_x="2033px" android:layout_y="136px"/>
+													</android.widget.RelativeLayout>
+													<android.widget.ScrollView android:enabled="true" android:focusable="true" android:layout_height="1938px" android:layout_width="0px" android:layout_x="1080px" android:layout_y="246px">
+														<android.widget.LinearLayout android:enabled="true" android:layout_height="1721px" android:layout_width="0px" android:layout_x="1080px" android:layout_y="246px">
+															<android.widget.LinearLayout android:enabled="true" android:id="@com.tcl.tclhome:id/ll_header" android:layout_height="291px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="246px">
+																<android.view.ViewGroup android:enabled="true" android:id="@com.tcl.tclhome:id/cl_user_info" android:layout_height="219px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="246px">
+																	<android.view.View android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/no_vip_region" android:layout_height="219px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="246px"/>
+																	<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/ivTHHomeMyTCLUserIcon" android:layout_height="184px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="264px"/>
+																	<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tvTHHomeMyTCLAccount" android:layout_height="73px" android:layout_width="-230px" android:layout_x="1310px" android:layout_y="278px" android:text="Dimitar Georgiev"/>
+																	<android.widget.LinearLayout android:enabled="true" android:id="@com.tcl.tclhome:id/layout_tcl_id" android:layout_height="47px" android:layout_width="-288px" android:layout_x="1368px" android:layout_y="386px">
+																		<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_id" android:layout_height="47px" android:layout_width="-288px" android:layout_x="1368px" android:layout_y="386px" android:text="TCL ID"/>
+																		<android.widget.TextView android:enabled="true" android:layout_height="47px" android:layout_width="-393px" android:layout_x="1473px" android:layout_y="386px" android:text=":"/>
+																		<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tvTHHomeMyTCLID" android:layout_height="47px" android:layout_width="-401px" android:layout_x="1481px" android:layout_y="386px" android:text="393949534"/>
+																	</android.widget.LinearLayout>
+																	<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/ivTHHomeMyTCLUserEdit" android:layout_height="63px" android:layout_width="-971px" android:layout_x="2051px" android:layout_y="324px"/>
+																</android.view.ViewGroup>
+																<android.view.View android:enabled="true" android:id="@com.tcl.tclhome:id/vip_padding" android:layout_height="72px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="465px"/>
+															</android.widget.LinearLayout>
+															<androidx.recyclerview.widget.RecyclerView android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/rvProfile" android:layout_height="1430px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="537px">
+																<android.view.ViewGroup android:clickable="true" android:enabled="true" android:focusable="true" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="537px">
+																	<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="537px">
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="594px">
+																			<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="594px">
+																				<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="594px"/>
+																			</android.view.ViewGroup>
+																			<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="597px">
+																				<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="597px" android:text="Share device"/>
+																			</android.widget.LinearLayout>
+																		</android.widget.LinearLayout>
+																	</android.widget.RelativeLayout>
+																</android.view.ViewGroup>
+																<android.widget.RelativeLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="710px">
+																	<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="762px">
+																		<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="762px">
+																			<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="762px"/>
+																		</android.view.ViewGroup>
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="765px">
+																			<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="765px" android:text="Room management"/>
+																		</android.widget.LinearLayout>
+																	</android.widget.LinearLayout>
+																</android.widget.RelativeLayout>
+																<android.widget.RelativeLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="883px">
+																	<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="935px">
+																		<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="935px">
+																			<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="935px"/>
+																		</android.view.ViewGroup>
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="938px">
+																			<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="938px" android:text="Firmware update"/>
+																		</android.widget.LinearLayout>
+																	</android.widget.LinearLayout>
+																</android.widget.RelativeLayout>
+																<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:layout_height="196px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1056px">
+																	<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1056px">
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1102px">
+																			<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1102px">
+																				<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1102px"/>
+																			</android.view.ViewGroup>
+																			<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1105px">
+																				<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1105px" android:text="Voice assistant"/>
+																			</android.widget.LinearLayout>
+																		</android.widget.LinearLayout>
+																	</android.widget.RelativeLayout>
+																</android.widget.LinearLayout>
+																<android.view.ViewGroup android:clickable="true" android:enabled="true" android:focusable="true" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1252px">
+																	<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1252px">
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1309px">
+																			<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1309px">
+																				<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1309px"/>
+																			</android.view.ViewGroup>
+																			<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1312px">
+																				<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1312px" android:text="Share APP"/>
+																			</android.widget.LinearLayout>
+																		</android.widget.LinearLayout>
+																	</android.widget.RelativeLayout>
+																</android.view.ViewGroup>
+																<android.widget.RelativeLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1425px">
+																	<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1477px">
+																		<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1477px">
+																			<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1477px"/>
+																		</android.view.ViewGroup>
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1480px">
+																			<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1480px" android:text="Feedback"/>
+																		</android.widget.LinearLayout>
+																	</android.widget.LinearLayout>
+																</android.widget.RelativeLayout>
+																<android.widget.RelativeLayout android:clickable="true" android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1598px">
+																	<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1650px">
+																		<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1650px">
+																			<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1650px"/>
+																		</android.view.ViewGroup>
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1653px">
+																			<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1653px" android:text="Settings"/>
+																		</android.widget.LinearLayout>
+																	</android.widget.LinearLayout>
+																</android.widget.RelativeLayout>
+																<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:layout_height="196px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1771px">
+																	<android.widget.RelativeLayout android:enabled="true" android:id="@com.tcl.tclhome:id/kv_item" android:layout_height="173px" android:layout_width="-46px" android:layout_x="1126px" android:layout_y="1771px">
+																		<android.widget.LinearLayout android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1817px">
+																			<android.view.ViewGroup android:enabled="true" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1817px">
+																				<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/iv_attrs_key_icon" android:layout_height="69px" android:layout_width="-92px" android:layout_x="1172px" android:layout_y="1817px"/>
+																			</android.view.ViewGroup>
+																			<android.widget.LinearLayout android:enabled="true" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1820px">
+																				<android.widget.TextView android:enabled="true" android:id="@com.tcl.tclhome:id/tv_attrs_key" android:layout_height="62px" android:layout_width="-207px" android:layout_x="1287px" android:layout_y="1820px" android:text="About"/>
+																			</android.widget.LinearLayout>
+																		</android.widget.LinearLayout>
+																	</android.widget.RelativeLayout>
+																</android.widget.LinearLayout>
+															</androidx.recyclerview.widget.RecyclerView>
+														</android.widget.LinearLayout>
+													</android.widget.ScrollView>
+												</android.widget.LinearLayout>
+											</android.widget.FrameLayout>
+										</com.tcl.bmmain.HomeViewPager>
+										<android.view.View android:enabled="true" android:id="@com.tcl.tclhome:id/view_tab_shadow" android:layout_height="225px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="2175px"/>
+										<android.widget.HorizontalScrollView android:enabled="true" android:focusable="true" android:id="@com.tcl.tclhome:id/tl_home" android:layout_height="216px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="2184px">
+											<android.widget.LinearLayout android:enabled="true" android:layout_height="156px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="2184px">
+												<android.widget.LinearLayout android:enabled="true" android:focusable="true" android:layout_height="156px" android:layout_width="540px" android:layout_x="0px" android:layout_y="2184px" android:selected="true">
+													<android.widget.FrameLayout android:enabled="true" android:layout_height="96px" android:layout_width="468px" android:layout_x="36px" android:layout_y="2214px" android:selected="true">
+														<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/tab_img" android:layout_height="72px" android:layout_width="72px" android:layout_x="234px" android:layout_y="2226px" android:selected="true"/>
+													</android.widget.FrameLayout>
+												</android.widget.LinearLayout>
+												<android.widget.LinearLayout android:clickable="true" android:enabled="true" android:focusable="true" android:layout_height="156px" android:layout_width="540px" android:layout_x="540px" android:layout_y="2184px">
+													<android.widget.FrameLayout android:enabled="true" android:layout_height="96px" android:layout_width="468px" android:layout_x="576px" android:layout_y="2214px">
+														<android.widget.ImageView android:enabled="true" android:id="@com.tcl.tclhome:id/tab_img" android:layout_height="72px" android:layout_width="72px" android:layout_x="774px" android:layout_y="2226px"/>
+													</android.widget.FrameLayout>
+												</android.widget.LinearLayout>
+											</android.widget.LinearLayout>
+										</android.widget.HorizontalScrollView>
+									</android.widget.RelativeLayout>
+								</android.widget.FrameLayout>
+							</android.widget.FrameLayout>
+						</android.widget.RelativeLayout>
+					</android.widget.FrameLayout>
+					<android.view.View android:enabled="true" android:layout_height="108px" android:layout_width="1080px" android:layout_x="0px" android:layout_y="0px"/>
+				</android.widget.FrameLayout>
+			</android.widget.LinearLayout>
+		</android.widget.FrameLayout>
+	</android.widget.LinearLayout>
+</android.widget.FrameLayout>
+
